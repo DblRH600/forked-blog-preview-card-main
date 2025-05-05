@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./blog_femc.jpg)
+![](./forked_blog_femc.jpg)
 
 ## My process
 
@@ -36,50 +36,26 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+Bootstrat is an extensive CSS library that will require time to develop an understanding to skillfully navigate. While I understand that Bootstrap is designed to make coding and building code easier, it had the reverse affect on this project and was very frustraing.
 
 ```html
-<div class="card-blog">
-          <p class="card-blog-date">Published 21 Dec 2023</p>
-          <h2 class="card-blog-heading">HTML & CSS foundations</h2>
+<div
+        class="card-blog-comment-container d-flex flex-column justify-content-center align-items-start px-1 gap-1 mt-3"
+      >
+        <div class="card-category bg-warning rounded-2 px-3 pt-2 mb-4">
+          <p class="card-blog-label fs-6 fw-bold">Learning</p>
+        </div>
+        <div class="card-blog">
+          <p class="card-blog-date fs-6">Published 21 Dec 2023</p>
+          <h2 class="card-blog-heading fs-4 fw-bold mb-2">
+            HTML & CSS foundations
+          </h2>
           <p class="card-blog-comments">
             These languages are the backbone of every website, defining
             structure, content, and presentation.
           </p>
         </div>
       </div>
-```
-```css
-.card-category {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 82px;
-  height: 29px;
-  gap: 8px;
-  background-color: #f4d04e;
-  padding: 4px 12px;
-  border-radius: 4px;
-}
-.card-category:hover,
-.card-blog-heading:hover,
-.card-profile {
-  cursor: pointer;
-}
-.card-blog-label {
-  font-weight: 800;
-  font-size: 14px;
-}
-.card-blog-date {
-  font-weight: 500;
-  font-size: 14px;
-}
-.card-blog-heading {
-  font-weight: 800;
-  font-size: 24px;
-}
 ```
 
 ### Continued development
@@ -89,4 +65,4 @@ I need to do continued research to understand how/when to use flex elements vs g
 
 ### Useful resources
 
-- [Video: Figma Tutorial: Device Frames and Scrolling](https://www.youtube.com/watch?v=ST6DOO11zuA) - While in an indirect relation to the challenge, this tutrial helped me to gain a deeper understanding of Frames, Components, and Prototyping in figma.
+- [Website: Bootstrap-Background page](https://getbootstrap.com/docs/5.3/utilities/background/) - Bootstrap website with informaiton on how to style and what utilities are available for Bootstrap.
