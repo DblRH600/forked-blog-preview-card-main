@@ -36,7 +36,7 @@ Users should be able to:
 
 ### What I learned
 
-Bootstrat is an extensive CSS library that will require time to develop an understanding to skillfully navigate. While I understand that Bootstrap is designed to make coding and building code easier, it had the reverse affect on this project and was very frustraing.
+Bootstrap is an extensive CSS library that will require time to develop an understanding to skillfully navigate. While I understand that Bootstrap is designed to make coding and building code easier, it had the reverse affect on this project and was very frustraing.
 
 ```html
 <div
